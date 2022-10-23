@@ -1,0 +1,4 @@
+Primero las migraciones
+Registrarse
+Segundo crea las categorias en el crud
+Cuarto ejecuta php artisan db:seed, si quieres posts de prueba

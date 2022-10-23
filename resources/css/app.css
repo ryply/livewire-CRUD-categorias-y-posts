@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply max-w-7xl mx-auto py-10 sm:px-6 lg:px-8
+}
+
+.box-action-message-green {
+    @apply py-2 px-4 bg-green-300 border rounded mb-4
+}
+
+.box-action-message-red {
+    @apply py-2 px-4 bg-red-300 border rounded mb-4
+}
+
+.btn-secondary {
+    @apply inline-flex items-center px-4 py-2 bg-slate-100 border border-gray-300 rounded-md font-semibold text-xs text-gray-800 uppercase tracking-widest shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue-200 active:text-gray-900 active:bg-gray-50 disabled:opacity-25 transition
+}
+
+/*STEP, Formulario paso a paso*/
+.step {
+    @apply px-6 py-2 font-medium tracking-wider border-b-2
+}
+
+.active {
+    @apply bg-gray-100 border-indigo-500 rounded-t
+}
+
+.btn-primary {
+    @apply font-bold py-3 px-4 rounded bg-purple-600 hover:bg-purple-900 text-white tracking-wide hover:shadow-xl inline-block uppercase hover:-translate-y-1 transition duration-150
+}
+
+.box{
+    @apply py-4 px-7 border
+}
